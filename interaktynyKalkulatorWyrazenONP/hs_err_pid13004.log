@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f6dc44d5015, pid=13004, tid=13009
+#
+# JRE version: OpenJDK Runtime Environment (10.0.2+13) (build 10.0.2+13-Ubuntu-1ubuntu0.18.04.3)
+# Java VM: OpenJDK 64-Bit Server VM (10.0.2+13-Ubuntu-1ubuntu0.18.04.3, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# V  [libjvm.so+0xbed015]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P" (or dumping to /home/aga/IdeaProjects/KursJavy/L5/core.13004)
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:35281,suspend=y,server=n -javaagent:/home/aga/ideaIU-2018.2.4/idea-IU-182.4505.22/lib/rt/debugger-agent.jar=file:/tmp/capture.props -Dfile.encoding=UTF-8 main.Main
+
+Host: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz, 4 cores, 3G, 
