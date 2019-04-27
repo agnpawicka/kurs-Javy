@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"main"},{"l":"narzędzia"},{"l":"obliczenia"},{"l":"struktury"},{"l":"wyjątki"}]
